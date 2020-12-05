@@ -16,7 +16,4 @@ jobs:
           heroku_app_name: "argiftsserver" #Must be unique in Heroku
           heroku_email: "mayurbhowad1995@gmail.com"
         
-      - name: 'install node modules'
-        run: npm i
-      - name: 'run app'
-        run: node index.js
+      
